@@ -13,8 +13,8 @@ a lightweight little [oneko](https://github.com/adryd325/oneko.js) to sit in you
 [BRAT](https://github.com/TfTHacker/obsidian42-brat) installs plugins straight from github and keeps them updated:
 
 1. install **brat** by **obsidian42** from community plugins
-2. brat → *add beta plugin* → paste `7368697661/moon`
-3. enable **moon** in settings → community plugins
+2. brat → add beta plugin → paste `7368697661/moon`
+3. enable ->moon<- in settings → community plugins
 
 ### manual (git clone)
 
@@ -25,7 +25,7 @@ cd <vault>/.obsidian/plugins
 git clone https://github.com/7368697661/moon.git
 ```
 
-then reload obsidian (`cmd/ctrl+r`) and enable **moon** in settings → community plugins.
+then reload obsidian (`cmd/ctrl+r`) and enable -><moon<- in settings → community plugins.
 
 ## notes
 
