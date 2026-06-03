@@ -1,4 +1,4 @@
-<img width="800" height="287" alt="moon-banner" src="https://github.com/user-attachments/assets/6eb10e0d-e052-4313-ba48-928d8b0c36a8" />
+<img width="800" alt="moon-banner" src="https://github.com/user-attachments/assets/6eb10e0d-e052-4313-ba48-928d8b0c36a8" />
 
 a lightweight little [oneko](https://github.com/adryd325/oneko.js) to sit in your obsidian to chase your mouse and nap while you work (,,>﹏<,,)
 
@@ -31,5 +31,8 @@ then reload obsidian (`cmd/ctrl+r`) and enable **moon** in settings → communit
 
 - desktop only (needs a real cursor). also should respect reduce motion.
 - the cat curls up to sleep after a few seconds of no mouse movement.
+
+named after my own cat :)
+<img width="1178" alt="image" src="https://github.com/user-attachments/assets/2f882b2c-5d26-4cb3-8ba6-41da42e79902" />
 
 behaviour and sprite from [adryd325/oneko.js](https://github.com/adryd325/oneko.js) (mit).
