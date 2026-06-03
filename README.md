@@ -32,7 +32,8 @@ then reload obsidian (`cmd/ctrl+r`) and enable -><moon<- in settings → communi
 - desktop only (needs a real cursor). also should respect reduce motion.
 - the cat curls up to sleep after a few seconds of no mouse movement.
 
+## name & credits
 named after my own cat :)
-<img width="1178" alt="image" src="https://github.com/user-attachments/assets/2f882b2c-5d26-4cb3-8ba6-41da42e79902" />
+<img width="1178" alt="IMG_2210" src="https://github.com/user-attachments/assets/784e2b10-c122-42dc-8f4c-8a2cab14e508" />
 
 behaviour and sprite from [adryd325/oneko.js](https://github.com/adryd325/oneko.js) (mit).
