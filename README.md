@@ -6,7 +6,7 @@ a lightweight little [oneko](https://github.com/adryd325/oneko.js) to sit in you
 
 ### community store
 
-⭐ **coming soon** // once it lands you'll be able to grab it from settings → community plugins → browse.
+⭐ **coming soon** // once it lands youll be able to grab it from settings → community plugins → browse.
 
 ### brat (beta, auto-updating)
 
@@ -18,7 +18,7 @@ a lightweight little [oneko](https://github.com/adryd325/oneko.js) to sit in you
 
 ### manual (git clone)
 
-clone the repo into your vault's plugins folder:
+clone the repo into your vaults plugins folder:
 
 ```sh
 cd <vault>/.obsidian/plugins
@@ -29,7 +29,7 @@ then reload obsidian (`cmd/ctrl+r`) and enable **moon** in settings → communit
 
 ## notes
 
-- desktop only (needs a real cursor); also should respect reduce motion.
+- desktop only (needs a real cursor). also should respect reduce motion.
 - the cat curls up to sleep after a few seconds of no mouse movement.
 
 behaviour and sprite from [adryd325/oneko.js](https://github.com/adryd325/oneko.js) (mit).
