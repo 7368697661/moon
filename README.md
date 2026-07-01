@@ -1,6 +1,11 @@
-<img width="800" alt="moon-banner" src="https://github.com/user-attachments/assets/6eb10e0d-e052-4313-ba48-928d8b0c36a8" />
+<img width="1280" alt="moon-out-2" src="https://github.com/user-attachments/assets/658b54da-ac84-4d88-a6e8-73f23ff6ea7f" />
+
+# moon
+*16kb cat*
 
 a lightweight little [oneko](https://github.com/adryd325/oneko.js) to sit in your obsidian to chase your mouse and nap while you work (,,>﹏<,,)
+
+<img width="1280" height="802" alt="moon-out" src="https://github.com/user-attachments/assets/dfff6568-85aa-4bae-9ba7-d776cd0cfdd7" />
 
 ## install
 
