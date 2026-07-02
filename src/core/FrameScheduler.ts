@@ -7,12 +7,12 @@ export class FrameScheduler {
   private readonly maxDt = 1 / 20;
 
   private readonly onVisibility = () => {
-    if (document.hidden) this.stop();
+    if (activeDocument.hidden) this.stop();
     else if (this.callbacks.size > 0) this.start();
   };
 
   constructor() {
-    document.addEventListener("visibilitychange", this.onVisibility);
+    activeDocument.addEventListener("visibilitychange", this.onVisibility);
   }
 
   subscribe(cb: FrameCallback): () => void {
@@ -27,13 +27,13 @@ export class FrameScheduler {
   }
 
   private start(): void {
-    if (this.rafId !== null || document.hidden || this.callbacks.size === 0) return;
+    if (this.rafId !== null || activeDocument.hidden || this.callbacks.size === 0) return;
     this.lastTime = performance.now();
-    this.rafId = requestAnimationFrame(this.tick);
+    this.rafId = window.requestAnimationFrame(this.tick);
   }
 
   private stop(): void {
-    if (this.rafId !== null) cancelAnimationFrame(this.rafId);
+    if (this.rafId !== null) window.cancelAnimationFrame(this.rafId);
     this.rafId = null;
   }
 
@@ -47,12 +47,12 @@ export class FrameScheduler {
         console.error("[moon] frame callback error", e);
       }
     }
-    this.rafId = requestAnimationFrame(this.tick);
+    this.rafId = window.requestAnimationFrame(this.tick);
   };
 
   dispose(): void {
     this.stop();
     this.callbacks.clear();
-    document.removeEventListener("visibilitychange", this.onVisibility);
+    activeDocument.removeEventListener("visibilitychange", this.onVisibility);
   }
 }

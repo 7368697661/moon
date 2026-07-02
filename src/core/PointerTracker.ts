@@ -22,12 +22,12 @@ export class PointerTracker {
   private readonly onLeave = () => (this.state.inside = false);
 
   start(): void {
-    document.addEventListener("pointermove", this.onMove, { passive: true });
-    document.addEventListener("pointerleave", this.onLeave, { passive: true });
+    activeDocument.addEventListener("pointermove", this.onMove, { passive: true });
+    activeDocument.addEventListener("pointerleave", this.onLeave, { passive: true });
   }
 
   dispose(): void {
-    document.removeEventListener("pointermove", this.onMove);
-    document.removeEventListener("pointerleave", this.onLeave);
+    activeDocument.removeEventListener("pointermove", this.onMove);
+    activeDocument.removeEventListener("pointerleave", this.onLeave);
   }
 }
