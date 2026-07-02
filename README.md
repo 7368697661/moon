@@ -5,13 +5,13 @@
 
 a lightweight little [oneko](https://github.com/adryd325/oneko.js) to sit in your obsidian to chase your mouse and nap while you work (,,>﹏<,,)
 
-<img width="1280" height="802" alt="moon-out" src="https://github.com/user-attachments/assets/dfff6568-85aa-4bae-9ba7-d776cd0cfdd7" />
+<img width="1280" alt="moon-out" src="https://github.com/user-attachments/assets/dfff6568-85aa-4bae-9ba7-d776cd0cfdd7" />
 
 ## install
 
 ### community store
 
-⭐ **coming soon** // once it lands youll be able to grab it from settings → community plugins → browse.
+⭐➡️ grab it from settings → community plugins → browse → search 'moon'
 
 ### brat (beta, auto-updating)
 
