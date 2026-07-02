@@ -19,7 +19,8 @@ export default class MoonPlugin extends Plugin {
   private pointer: PointerTracker | null = null;
 
   async onload(): Promise<void> {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    const saved = (await this.loadData()) as Partial<MoonSettings> | null;
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, saved);
 
     const scheduler = new FrameScheduler();
     const pointer = new PointerTracker();

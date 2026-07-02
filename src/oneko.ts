@@ -50,12 +50,12 @@ export class Oneko {
     const reduced = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
     if (reduced || this.pointer.isCoarse) return;
 
-    const el = document.createElement("div");
+    const el = activeDocument.createElement("div");
     el.className = "moon-oneko";
     el.setAttribute("aria-hidden", "true");
     el.style.backgroundImage = `url(${ONEKO_SPRITES[this.color]})`;
     el.style.backgroundSize = `${8 * FRAME}px ${4 * FRAME}px`;
-    document.body.appendChild(el);
+    activeDocument.body.appendChild(el);
     this.el = el;
 
     this.nekoX = this.pointer.state.x;
