@@ -1,7 +1,7 @@
 {
   "id": "moon",
   "name": "Moon",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "minAppVersion": "1.5.0",
   "description": "oneko port // a cat to chase your cursor and nap when you go idle",
   "author": "kneecaps",
