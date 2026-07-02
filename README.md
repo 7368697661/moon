@@ -19,18 +19,18 @@ a lightweight little [oneko](https://github.com/adryd325/oneko.js) to sit in you
 
 1. install **brat** by **obsidian42** from community plugins
 2. brat → add beta plugin → paste `7368697661/moon`
-3. enable ->moon<- in settings → community plugins
+3. enable **moon** in settings → community plugins
 
 ### manual (git clone)
 
 clone the repo into your vaults plugins folder:
 
 ```sh
-cd <vault>/.obsidian/plugins
+cd (vault)/.obsidian/plugins
 git clone https://github.com/7368697661/moon.git
 ```
 
-then reload obsidian (`cmd/ctrl+r`) and enable -><moon<- in settings → community plugins.
+then reload obsidian (`cmd/ctrl+r`) and enable **moon** in settings → community plugins.
 
 ## notes
 
