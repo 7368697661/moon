@@ -1,1 +1,13 @@
-.moon-oneko{position:fixed;left:0;top:0;width:32px;height:32px;z-index:var(--layer-popover, 30);pointer-events:none;background-repeat:no-repeat;image-rendering:pixelated;transform-origin:center;will-change:transform,background-position}
+.moon-oneko {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  z-index: var(--layer-popover, 30);
+  pointer-events: none;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  transform-origin: center;
+  will-change: transform, background-position;
+}
